@@ -1,0 +1,16 @@
+{
+	"type": "mashup",
+	"name": "ELWorkingGorup",
+	"description": "ELWorkingGorup Template By Artefact",
+	"homepage": "",
+	"author": "Artefact",
+	"version": "1.0.0",
+	"preview": "preview.png",
+	"keywords": "qlik-sense, mashup, dashboard",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=1.0.x"
+	},
+	"src": "/extensions/new-mashup/preview.png"
+}
