@@ -6,12 +6,22 @@
     left: auto !important;
 }
 /*---------------------------------Qlik Overrides Start------------------------------*/
-.qv-object-text-image .qv-media-tool-editor [size="5"], .qv-object-text-image .qv-media-tool-html [size="5"]{
-    font-size: 29.036px !important;
+/*vertical collapsable table*/
+.qv-pt .cell.numeric{
+    height: 30px;
 }
 .qv-object-pivot-table .qv-object-header{
     display: none;
 }
+.qv-pt .cell.null-value {
+    background-color: transparent !important;
+}
+/*vertical collapsable table*/
+
+.qv-object-text-image .qv-media-tool-editor [size="5"], .qv-object-text-image .qv-media-tool-html [size="5"]{
+    font-size: 29.036px !important;
+}
+
 .qv-object-text-image .qv-media-tool-editor, .qv-object-text-image .qv-media-tool-html{
     line-height: 1 !important;
 }
@@ -22,9 +32,7 @@ span.chart-data-title-label.ng-binding {
     /*font-size: 12px !important;*/
 	text-align: center !important;
 }
-.qv-pt .cell.null-value {
-    background-color: transparent !important;
-}
+
 
 
 /* Track */
