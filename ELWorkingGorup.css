@@ -8,7 +8,7 @@
 /*---------------------------------Qlik Overrides Start------------------------------*/
 /*vertical collapsable table*/
 .qv-pt .cell.numeric{
-    height: 30px;
+    height: 35px;
 }
 .qv-object-pivot-table .qv-object-header{
     display: none;
@@ -240,7 +240,7 @@ background-color: #555555;
     width:50px!important
     }
     th.cell.ng-scope.header.top {
-        font-size: 11px;
+        font-size: 12px;
     }
     
     .qv-pt .cell.header .value .left
@@ -374,14 +374,7 @@ body{
     width: 30px;
     margin: 0px;
     }
-    .my-legend ul.legend-labels-circle li span {
-        display: block;
-        float: left;
-        height: 20px;
-        width: 20px;
-        margin: 0px;
-        border-radius: 50%;
-    }
+
     .arrow-up {
         float:left;
         width: 0; 
@@ -427,6 +420,9 @@ button:active { outline: none !important; }
 button:change { outline: none !important;}
 button.change:hover { outline: none !important;}
 button:focus { outline:0 !important; }
+.filter .sn-kpi-value{
+    font-size: 100% !important;
+}
 .sn-kpi .sn-kpi-ellips-text {
     color: white;
 }
