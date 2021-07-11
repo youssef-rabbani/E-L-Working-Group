@@ -42,6 +42,17 @@ require(["js/qlik"], function (qlik) {
 	
 
 	//get objects -- inserted here --
+	app.getObject('QV-pg3-1','BPcxwQc');
+	app.getObject('QV-pg3-51','GNKCRg');
+	app.getObject('QV-pg2-f-1-s','TwmJQ');
+	app.getObject('QV-pg2-f-4-s','PLKfV');
+	app.getObject('QV-pg2-f-3-s','rCRX');
+	app.getObject('QV-pg2-f-2-s','HgKuV');
+	app.getObject('QV-pg1-f-4-s','PLKfV');
+	app.getObject('QV-pg1-f-3-s','rCRX');
+	app.getObject('QV-pg1-f-2-s','HgKuV');
+	
+	app.getObject('QV-pg1-f-1-s','bpqfb');
 	app.getObject('QV-pg2-kpi-3','hpGdJ');
 	app.getObject('QV-pg2-kpi-7','LqUQPpX');
 	app.getObject('QV-pg2-kpi-6','jUfj');
