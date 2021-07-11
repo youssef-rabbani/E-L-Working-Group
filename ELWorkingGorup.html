@@ -356,17 +356,6 @@
                       <div class="col-xs-10 title">
                         Airport Experience Satisfaction
                       </div>
-                      <!--<div class="col-xs-2">
-                        <button
-                          type="button"
-                          class="btn btn-primary"
-                          data-toggle="modal"
-                          data-target="#exampleModal"
-                          data-whatever="@mdo"
-                        >
-                          Open modal
-                        </button>
-                      </div>-->
                     </div>
                     <div class="row margin-bottom">
                       <div class="col-xs-12"style="padding: 0px 28px;">
@@ -780,7 +769,16 @@
                     <div class="col-xs-6">
                       <div class="row margin-bottom">
                         <div class="col-xs-12">
-                          <input type="text" class="form-control bg-light" id="destination" placeholder="Destination">
+                          <select class="form-control bg-light" id="destination">
+                            <option value="" disabled selected hidden>Destination</option>
+                            <option value="">Dammam</option>
+                            <option value="">Jeddah</option>
+                            <option value="">Madinah</option>
+                            <option value="">Neom</option>
+                            <option value="">Riyadh</option>
+                            <option value="">Tabuk</option>
+                            <option value="">Taif</option>
+                          </select>
                         </div>
                       </div>
                       <div class="row margin-bottom">
@@ -844,7 +842,7 @@
             <button type="button" class="btn btn-default" data-dismiss="modal">
               Close
             </button>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="button"type="submit" value="Submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
