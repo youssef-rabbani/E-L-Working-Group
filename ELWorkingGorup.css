@@ -8,7 +8,7 @@
 /*---------------------------------Qlik Overrides Start------------------------------*/
 /*vertical collapsable table*/
 .qv-pt .cell.numeric{
-    height: 35px;
+    height: 27px;
 }
 .qv-object-pivot-table .qv-object-header{
     display: none;
@@ -240,7 +240,7 @@ background-color: #555555;
     width:50px!important
     }
     th.cell.ng-scope.header.top {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .qv-pt .cell.header .value .left
